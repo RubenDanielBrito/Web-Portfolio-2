@@ -1,0 +1,157 @@
+/** Index **/
+
+.content
+{
+  padding-top: 70px;
+}
+
+.container .carousel-caption
+{
+  color: black !important;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  bottom: 11em;
+}
+
+.bot-absolute
+{
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform:    translateX(-50%);
+  -ms-transform:     translateX(-50%);
+  -o-transform:      translateX(-50%);
+}
+
+.container-inner
+{
+  max-height: 50vh;
+  overflow: hidden;
+  padding-top: 3em;
+}
+
+.carousel-inner img
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.carousel-item .image-container
+{
+  position: relative;
+  height: 500px;
+  width: 888px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.6);
+}
+
+#work img
+{
+  padding: 0.5em;
+}
+
+/* @media (min-width: 1px) and (max-width: 576px)
+{
+  .carousel-item .image-container
+  {
+
+  }
+} */
+
+/**About Me**/
+
+.header h1
+{
+  font-size: 2em;
+}
+
+.introduction
+{
+  font-size: 3em;
+}
+
+.skills h3
+{
+  font-size: 2em;
+}
+
+#skill-list
+{
+  font-size: 1.25em;
+}
+
+/**Contacts**/
+
+body
+{
+  position: relative;
+  background-image: url(../img/background3.jpg);
+  background-size: cover;
+  min-height: 200vh;
+  color: #34495e;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#contacts-wrapper
+{
+  z-index: 100;
+}
+
+#xups-wrapper
+{
+  z-index: 1000;
+}
+
+#contacts-wrapper, #xups-wrapper
+{
+  position: relative;
+  min-height: 100vh;
+}
+
+#fixed-wrapper
+{
+  position: fixed;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform:    translateX(-50%);
+  -ms-transform:     translateX(-50%);
+  -o-transform:      translateX(-50%);
+}
+
+.header
+{
+  font-family: 'DM Serif Display', sans-serif;
+  margin: 50px;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.contacts
+{
+  font-family: 'Literata', serif;
+  text-align: center;
+  color: white;
+}
+
+/** FAQs **/
+
+.card-header
+{
+  background: #5d37a8;
+}
+.card-header button
+{
+  color: #ffffff;
+}
+.card-body
+{
+  font-size: 18px;
+}
